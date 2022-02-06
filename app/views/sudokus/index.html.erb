@@ -11,7 +11,7 @@
   <% @sudoku.board.each do |row| %><br>
     <% row.each do |num| %>
       <% if num.zero? %>
-        <input type="text" id="setid" class="tile">
+        <input type="text" id="setid" class="tile" maxlength="1" oninput=>
       <% else %>
         <div id="setid" class="tile"><%= num %> </div>
       <% end %>
@@ -20,6 +20,9 @@
   <button type="button" onclick=<% @sudoku.solve%>>Solve</button>
   <button type="button" onclick="solve()">Show Answer</button>
   <body onLoad="javascript:setId()">
+  <% javascript_tag do %>
+    var sudoku = <% @sudoku %>
+  <% end %>
 </section>
 
 <div id="solved-board" style="display: none">

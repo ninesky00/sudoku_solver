@@ -7,31 +7,6 @@ a:hover {
   background-color: #000; }
 
 
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table; }
-
-#error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px 7px 0;
-  margin-bottom: 20px;
-  background-color: #f0f0f0; }
-
-#error_explanation h2 {
-  text-align: left;
-  font-weight: bold;
-  padding: 5px 5px 5px 15px;
-  font-size: 12px;
-  margin: -7px -7px 0;
-  background-color: #c00;
-  color: #fff; }
-
-#error_explanation ul li {
-  font-size: 12px;
-  list-style: square; }
-
 .hidden {
   display: none; }
 
@@ -65,8 +40,21 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   align-content: flex-start;
+  font-family: sans-serif;
   width: 600px;
   height: 600px; }
+
+#container div{
+  background-color: whitesmoke;
+  height: 60px;
+  width: 60px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px; 
+  font-size: 30px; 
+  color: green; }
 
 .tile {
   border: 1px solid black;
@@ -75,16 +63,9 @@ button {
   text-align: center;
   margin: 0px;
   vertical-align: middle;
-  font-size: 40pt; }
+  font-size: 40pt; 
+  padding: 0; }
 
-input {
-  border: 1px solid black;
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  margin: 0px;
-  vertical-align: middle;
-  font-size: 40pt; }
 
 p.selected {
   background-color: lightblue; }
