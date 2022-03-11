@@ -1,0 +1,35 @@
+<html lang="en-US">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sudoku Solver</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<header>
+  <h1>Sudoku</h1>
+  <div id="setup-game">
+    <div id="time">
+      <label id="minutes">00</label>:<label id="seconds">00</label>
+    </div>
+    <script src="js/board.js"></script>
+    <script src="js/script.js"></script>
+    <button type="button" onclick="createBoard()">New Board</button>
+    <button type="button" onclick="userBoard(board)">Enter Your Puzzle</button>
+    <button type="button" onclick="solve(), createBoard()">Show Answer</button>
+  </div>
+</header>
+
+<body id="game">
+
+  <section id="sudokuBoard">
+
+  </section>
+
+</body>
+
+
+
+</html>

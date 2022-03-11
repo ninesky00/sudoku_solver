@@ -1,0 +1,87 @@
+body.dark {
+  background-color: #333333;
+  color: white; }
+
+a:hover {
+  color: #fff;
+  background-color: #000; }
+
+
+.hidden {
+  display: none; }
+
+header {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black; }
+
+#setup-game {
+  display: flex;
+  justify-content: center; }
+
+button {
+  justify-self: center; }
+
+
+#timer, #attemtps {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center; }
+
+#game {
+  display: flex;
+  justify-content: center; }
+
+
+#sudokuBoard {
+  padding-top: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  font-family: sans-serif;
+  width: 600px;
+  height: 600px; }
+
+#container div{
+  background-color: whitesmoke;
+  height: 60px;
+  width: 60px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px; 
+  font-size: 30px; 
+  color: green; }
+
+.tile {
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40pt; 
+  background-color: rgb(0, 255, 251);
+  box-sizing: inherit;
+  display: block;}
+
+
+p.selected {
+  background-color: lightblue; }
+
+p.incorrect {
+  color: red; }
+
+.rightBorder {
+  border-right: 4px solid black; }
+
+.bottomBorder {
+  border-bottom: 4px solid black; }
+
+footer {
+  background-color: lightgrey;
+  text-align: center; }
