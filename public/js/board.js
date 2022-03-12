@@ -12,7 +12,7 @@ function createBoard() {
   for(i=0; i<board.length; i++) {
     const row = document.createElement("div")
     for(j=0; j<board[0].length; j++) {
-      let position = [i, j];
+      let position = [j, i];
       if(board[j][i] == 0) {
         const newInput = document.createElement("input");
         newInput.maxLength = 1;
