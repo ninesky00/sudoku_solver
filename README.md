@@ -24,5 +24,6 @@ succesfully solves user puzzle if the puzzle is valid.
 - Create and highlight board for the outer cells and 3x3s to better highlight the puzzle.
 - refactor code so not everything is in a chunk.
 - Create better CSS and remove white space on page.
-
+- Testing overall, originally started with TDD in rails but haven't learned Javascript testing suite.
+- Sudoku seed generator, providing solvable boards for users(currently, there is just a manually entered static board.) (To accomplish this, personally I would implement a random number generator for a 15-30 cells depending on difficulty and then run the solve function. Keep if solvable and discard if not.)
 
