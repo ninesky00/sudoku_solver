@@ -34,7 +34,8 @@ function createBoard() {
         row.appendChild(newDiv);
       }
     }
-    document.body.appendChild(row);
+    boardElem = document.getElementById("sudokuBoard");
+    boardElem.appendChild(row);
   }
   setId();
 };
@@ -53,7 +54,8 @@ function userBoard(board) {
       })
       row.appendChild(userInput);
     }
-    document.body.appendChild(row);
+    boardElem = document.getElementById("sudokuBoard");
+    boardElem.appendChild(row);
   }
   setId();
   
@@ -119,6 +121,11 @@ function resetBoard() {
   for(let i of board) {
     i.fill(0);
   }
+}
+
+function clearPage() {
+  let elem = document.getElementById("sudokuBoard");
+  elem.innerHTML = '';
 }
 
 function setId() {
