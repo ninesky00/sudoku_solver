@@ -4,7 +4,7 @@
 A personal project Sudoku solver built with vanilla JavaScript and html using backtracking approach. 
 
 ## Instructions
-This application is hosted on [Heroku](https://sudoku-solver-jj2029.herokuapp.com/)
+This application is hosted no longer hosted on Heroku. Fork and clone the repo, then open index.html inside the public folder to open the application.
 
 Chrome browser was used in the entirely of the project, did not check with other browsers.
 
